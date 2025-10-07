@@ -164,7 +164,7 @@ hand1 = draw_card(5, cards_list)  # Draws 5 random cards
 - [x] **Game Logic Development** - Multi-player card distribution
 - [x] Complete Python Function Mastery 🎉
 - [x] Practical Programming Applications 🎮
-- [ ] Object-Oriented Programming (upcoming)
+- [ ] Data Preprocessing (upcoming)
 
 ## 🤝 Contributing
 
@@ -185,4 +185,4 @@ If you have any questions about this training material, feel free to reach out o
 - Training Program: SAP at KPRIT College
 - Training Date: October 7, 2025
 - Focus: Python Functions & Parameter Types (Complete)
-- Next Topic: Object-Oriented Programming
+- Next Topic: Data Preprocessing
