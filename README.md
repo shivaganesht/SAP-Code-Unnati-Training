@@ -1,4 +1,4 @@
-# SAP Training
+# SAP-Code-Unnati-Training-Notes
 
 Welcome to my SAP Training repository! This repository contains Python exercises and learning materials from my SAP training class at **KPRIT College** conducted on **October 7, 2025**.
 
