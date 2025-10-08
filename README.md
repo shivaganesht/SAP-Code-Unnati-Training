@@ -30,6 +30,15 @@ Welcome to my SAP Code Unnati Training repository! This repository contains Pyth
   - **Array Slicing** - Extracting subarrays using slice notation
   - **Structured Arrays** - Creating complex data structures with mixed data types
   - **Broadcasting** - Mathematical operations on arrays (covered conceptually)
+  - **Pandas Introduction** - Data manipulation library fundamentals
+  - **Pandas Series** - Creating and working with Series objects
+
+### Trainer Resources
+- **`Files From Trainer/`** - Professional training materials and examples:
+  - `e1_pythonbaics.ipynb` - Python basics from instructor
+  - `e3_numpypandas.ipynb` - NumPy and Pandas examples
+  - `e5_data m(1).ipynb` - Advanced data manipulation techniques
+  - `1725628504-Data Manipulation Using Pandas Library (1).ipynb` - Comprehensive Pandas guide
 
 ## 🐍 Python Exercises Covered
 
@@ -146,6 +155,15 @@ person_data = np.array([('Shiva Ganesh', 22, 21.0)],
                       dtype=[('Name', (np.str_, 10)), ('Age', np.int32), ('Weight', np.float64)])
 ```
 
+**Pandas Series Operations:**
+```python
+# Creating pandas Series with mixed data types
+import pandas as pd
+data = np.array([11, 12, 13, 14, 'mohan'])
+ser = pd.Series(data)  # Handles mixed data automatically
+print(ser)  # Output shows indexed series with mixed types
+```
+
 ## 🎯 Learning Objectives
 
 - **Function Parameter Types**: Master all Python argument types
@@ -166,6 +184,8 @@ person_data = np.array([('Shiva Ganesh', 22, 21.0)],
 - **Data Structure Design**: Structured arrays for complex data types
 - **File I/O Operations**: Multiple data persistence formats
 - **Array Indexing & Slicing**: Advanced data access techniques
+- **Pandas Fundamentals**: Data manipulation and Series creation
+- **Professional Training Resources**: Access to instructor materials
 
 ## 🏫 Training Details
 
@@ -204,7 +224,10 @@ person_data = np.array([('Shiva Ganesh', 22, 21.0)],
   - [x] **Structured Arrays** - Mixed data types and complex structures
   - [x] **Broadcasting Concepts** - Mathematical operations overview
   - [x] **Complete NumPy Mastery** 🎯
-  - [ ] Pandas integration (upcoming)
+  - [x] **Pandas Introduction** - Data manipulation library setup
+  - [x] **Pandas Series Creation** - Basic Series objects and data types
+  - [ ] Advanced Pandas operations (in progress)
+  - [ ] DataFrame operations (upcoming)
 
 ## 🤝 Contributing
 
