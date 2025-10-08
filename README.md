@@ -21,11 +21,15 @@ Welcome to my SAP Code Unnati Training repository! This repository contains Pyth
 
 - **`8-10-25.ipynb`** - Data Preprocessing fundamentals covering:
   - **NumPy Introduction** - Scientific computing library basics
-  - **Array Creation** - Different methods to create NumPy arrays
+  - **Array Creation** - Different methods to create NumPy arrays (`np.array`, `np.asarray`)
   - **Data Types** - Understanding NumPy data types vs Python lists
   - **Multi-dimensional Arrays** - 1D, 2D, and 3D array operations
-  - **Array Dimensions** - Working with `ndim` property
-  - **File I/O Operations** - Saving and loading arrays with `.npy` format
+  - **Array Dimensions** - Working with `ndim` property and `reshape()` methods
+  - **File I/O Operations** - Multiple formats (`.npy`, `.txt` with `savetxt/loadtxt`)
+  - **Array Indexing** - Advanced indexing techniques for 1D, 2D, and 3D arrays
+  - **Array Slicing** - Extracting subarrays using slice notation
+  - **Structured Arrays** - Creating complex data structures with mixed data types
+  - **Broadcasting** - Mathematical operations on arrays (covered conceptually)
 
 ## 🐍 Python Exercises Covered
 
@@ -131,6 +135,17 @@ hand1 = draw_card(5, cards_list)  # Draws 5 random cards
 # Output: Hand1= ['7C', 'KH', '3D', 'AS', '9S']
 ```
 
+**NumPy Data Processing:**
+```python
+# Multi-dimensional array operations
+arr = np.arange(12).reshape(3,4)  # Creates 3x4 matrix
+print(arr[1,2])  # Element at row 1, column 2
+
+# Structured arrays for complex data
+person_data = np.array([('Shiva Ganesh', 22, 21.0)],
+                      dtype=[('Name', (np.str_, 10)), ('Age', np.int32), ('Weight', np.float64)])
+```
+
 ## 🎯 Learning Objectives
 
 - **Function Parameter Types**: Master all Python argument types
@@ -147,6 +162,10 @@ hand1 = draw_card(5, cards_list)  # Draws 5 random cards
 - **Input/Output Operations**: User interaction with `input()` and formatted output
 - **Data Structures**: Tuples, dictionaries, lists, and string manipulation
 - **Algorithm Implementation**: Card shuffling and dealing mechanisms
+- **NumPy Mastery**: Scientific computing and array operations
+- **Data Structure Design**: Structured arrays for complex data types
+- **File I/O Operations**: Multiple data persistence formats
+- **Array Indexing & Slicing**: Advanced data access techniques
 
 ## 🏫 Training Details
 
@@ -178,9 +197,13 @@ hand1 = draw_card(5, cards_list)  # Draws 5 random cards
   - [x] NumPy library introduction and setup
   - [x] Array creation and data type understanding
   - [x] Multi-dimensional array operations (1D, 2D, 3D)
-  - [x] Array dimension properties and methods
-  - [x] File I/O operations for data persistence
-  - [ ] Advanced NumPy operations (upcoming)
+  - [x] Array dimension properties and `reshape()` methods
+  - [x] **File I/O Operations** - Multiple formats (`.npy`, `.txt`)
+  - [x] **Advanced Array Indexing** - 1D, 2D, and 3D indexing techniques
+  - [x] **Array Slicing** - Extracting subarrays and data subsets
+  - [x] **Structured Arrays** - Mixed data types and complex structures
+  - [x] **Broadcasting Concepts** - Mathematical operations overview
+  - [x] **Complete NumPy Mastery** 🎯
   - [ ] Pandas integration (upcoming)
 
 ## 🤝 Contributing
