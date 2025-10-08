@@ -1,19 +1,18 @@
-# SAP-Code-Unnati-Training-Notes
+# SAP Code Unnati Training Repository
 
-Welcome to my SAP Code Unnati Training repository! This repository contains Python exercises and learning materials from my SAP Code Unnati- **Dates:** October 7-8, 2025
-- **Program:** SAP Code Unnati Training - Python Fundamentals & Data Preprocessing
-- **Session Type:** Class Trainingaining class at **KPRIT College** conducted on **October 7, 2025**.
+Welcome to my SAP Code Unnati Training repository! This repository contains Python exercises and learning materials from my SAP Code Unnati training program at **KPRIT College** conducted on **October 7-8, 2025**.
 
 ## 📚 Contents
 
 ### Notebooks
 - **`7-10-25.ipynb`** - Comprehensive Python programming exercises covering:
-  - **Positional Arguments** - Basic function definitions with required parameters
-  - **Keyword Arguments** - Functions with named parameters
-  - **Default Parameters** - Functions with optional arguments and default values
-  - **Variable Length Arguments (*args)** - Functions accepting multiple positional arguments
-  - **Keyword Variable-Length Arguments (**kwargs)** - Functions accepting multiple keyword arguments
-  - **Mixing Different Argument Types** - Advanced combination of all argument types
+  - **Functional Arguments** - Complete overview of Python function parameter types
+    - **Positional Arguments** - Basic function definitions with required parameters
+    - **Keyword Arguments** - Functions with named parameters
+    - **Default Parameters** - Functions with optional arguments and default values
+    - **Variable Length Arguments (*args)** - Functions accepting multiple positional arguments
+    - **Keyword Variable-Length Arguments (**kwargs)** - Functions accepting multiple keyword arguments
+    - **Mixing Different Argument Types** - Advanced combination of all argument types
   - **Card Game Implementation** - Practical application using random module
   - String manipulation and input handling
   - Tuple operations and data structures
@@ -190,44 +189,49 @@ print(ser)  # Output shows indexed series with mixed types
 ## 🏫 Training Details
 
 - **Institution:** KPRIT College
-- **Date:** October 7, 2025
-- **Program:** SAP Code Unnati Training
+- **Dates:** October 7-8, 2025
+- **Program:** SAP Code Unnati Training - Python Fundamentals & Data Preprocessing
 - **Session Type:** Class Training
 
 ## 📊 Training Progress
 
-- [x] **Positional Arguments** - Basic function parameters
-- [x] **Keyword Arguments** - Named parameter functions
-- [x] **Default Parameters** - Optional arguments with defaults
-- [x] **Variable Length Arguments (*args)** - Dynamic positional parameters
-- [x] **Keyword Variable-Length Arguments (**kwargs)** - Dynamic keyword parameters
-- [x] **Mixing Different Argument Types** - Advanced parameter combinations
-- [x] **Parameter Order Rules** - Proper function signature structure
-- [x] Input/Output operations with user interaction
-- [x] Tuple and data structure manipulation
-- [x] Mathematical functions and calculations
-- [x] Real-world function applications
-- [x] **Card Game Implementation** - Practical programming project
-- [x] **Random Module Usage** - Randomization and shuffling algorithms
-- [x] **List Comprehension** - Advanced data structure creation
-- [x] **Game Logic Development** - Multi-player card distribution
-- [x] Complete Python Function Mastery 🎉
-- [x] Practical Programming Applications 🎮
-- [x] **Data Preprocessing - NumPy Fundamentals** 📊
-  - [x] NumPy library introduction and setup
-  - [x] Array creation and data type understanding
-  - [x] Multi-dimensional array operations (1D, 2D, 3D)
-  - [x] Array dimension properties and `reshape()` methods
+### Python Functions & Arguments (7-10-25.ipynb)
+- [x] **Functional Arguments** - Complete mastery of Python function parameter types
+  - [x] **Positional Arguments** - Basic function parameters with required order
+  - [x] **Keyword Arguments** - Named parameter functions for flexible calling
+  - [x] **Default Parameters** - Optional arguments with fallback values
+  - [x] **Variable Length Arguments (*args)** - Dynamic positional parameters
+  - [x] **Keyword Variable-Length Arguments (**kwargs)** - Dynamic keyword parameters
+  - [x] **Mixing Different Argument Types** - Advanced parameter combinations
+  - [x] **Parameter Order Rules** - Proper function signature structure
+- [x] **Input/Output Operations** - User interaction with `input()` and formatted output
+- [x] **Data Structure Manipulation** - Tuples, lists, and string operations
+- [x] **Mathematical Functions** - Calculations and return value handling
+- [x] **Real-world Applications** - Practical function implementations
+- [x] **Card Game Implementation** - Advanced programming project
+  - [x] **Random Module Usage** - Randomization and shuffling algorithms
+  - [x] **List Comprehension** - Advanced data structure creation
+  - [x] **Game Logic Development** - Multi-player card distribution
+- [x] **Complete Python Function Mastery** 🎉
+### Data Preprocessing & Analysis (8-10-25.ipynb)
+- [x] **NumPy Fundamentals** 📊
+  - [x] **Library Setup** - NumPy introduction and import
+  - [x] **Array Creation** - Multiple methods (`np.array`, `np.asarray`, `np.arange`)
+  - [x] **Data Types** - Understanding NumPy vs Python data types
+  - [x] **Multi-dimensional Arrays** - 1D, 2D, and 3D operations
+  - [x] **Array Properties** - `ndim`, `reshape()`, and dimension analysis
   - [x] **File I/O Operations** - Multiple formats (`.npy`, `.txt`)
-  - [x] **Advanced Array Indexing** - 1D, 2D, and 3D indexing techniques
-  - [x] **Array Slicing** - Extracting subarrays and data subsets
-  - [x] **Structured Arrays** - Mixed data types and complex structures
+  - [x] **Advanced Indexing** - Complex array element access
+  - [x] **Array Slicing** - Data subset extraction techniques
+  - [x] **Structured Arrays** - Mixed data types for real-world data
   - [x] **Broadcasting Concepts** - Mathematical operations overview
-  - [x] **Complete NumPy Mastery** 🎯
-  - [x] **Pandas Introduction** - Data manipulation library setup
-  - [x] **Pandas Series Creation** - Basic Series objects and data types
-  - [ ] Advanced Pandas operations (in progress)
-  - [ ] DataFrame operations (upcoming)
+
+- [x] **Pandas Introduction** 🐼
+  - [x] **Library Setup** - Pandas import and basic setup
+  - [x] **Series Creation** - Basic Series objects with mixed data types
+  - [ ] **Advanced Series Operations** (in progress)
+  - [ ] **DataFrame Operations** (upcoming)
+  - [ ] **Data Manipulation** (upcoming)
 
 ## 🤝 Contributing
 
@@ -244,9 +248,9 @@ If you have any questions about this training material, feel free to reach out o
 *Last updated: October 8, 2025*
 
 **Repository Stats:**
-- Language: Python & NumPy
+- Language: Python, NumPy & Pandas
 - Training Program: SAP Code Unnati at KPRIT College
 - Training Dates: October 7-8, 2025
-- Focus: Data Preprocessing with NumPy (In Progress)
-- Completed: Python Functions & Parameter Types
-- Next Topic: Advanced NumPy & Pandas
+- Focus: Data Preprocessing & Analysis (In Progress)
+- Completed: Python Functions, NumPy Fundamentals, Pandas Introduction
+- Next Topic: Advanced Pandas & DataFrames
