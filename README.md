@@ -1,6 +1,8 @@
 # SAP-Code-Unnati-Training-Notes
 
-Welcome to my SAP Training repository! This repository contains Python exercises and learning materials from my SAP training class at **KPRIT College** conducted on **October 7, 2025**.
+Welcome to my SAP Code Unnati Training repository! This repository contains Python exercises and learning materials from my SAP Code Unnati- **Dates:** October 7-8, 2025
+- **Program:** SAP Code Unnati Training - Python Fundamentals & Data Preprocessing
+- **Session Type:** Class Trainingaining class at **KPRIT College** conducted on **October 7, 2025**.
 
 ## 📚 Contents
 
@@ -16,6 +18,14 @@ Welcome to my SAP Training repository! This repository contains Python exercises
   - String manipulation and input handling
   - Tuple operations and data structures
   - Mathematical calculations and return values
+
+- **`8-10-25.ipynb`** - Data Preprocessing fundamentals covering:
+  - **NumPy Introduction** - Scientific computing library basics
+  - **Array Creation** - Different methods to create NumPy arrays
+  - **Data Types** - Understanding NumPy data types vs Python lists
+  - **Multi-dimensional Arrays** - 1D, 2D, and 3D array operations
+  - **Array Dimensions** - Working with `ndim` property
+  - **File I/O Operations** - Saving and loading arrays with `.npy` format
 
 ## 🐍 Python Exercises Covered
 
@@ -142,7 +152,7 @@ hand1 = draw_card(5, cards_list)  # Draws 5 random cards
 
 - **Institution:** KPRIT College
 - **Date:** October 7, 2025
-- **Program:** SAP Training - Python Fundamentals
+- **Program:** SAP Code Unnati Training
 - **Session Type:** Class Training
 
 ## 📊 Training Progress
@@ -164,7 +174,14 @@ hand1 = draw_card(5, cards_list)  # Draws 5 random cards
 - [x] **Game Logic Development** - Multi-player card distribution
 - [x] Complete Python Function Mastery 🎉
 - [x] Practical Programming Applications 🎮
-- [ ] Data Preprocessing (upcoming)
+- [x] **Data Preprocessing - NumPy Fundamentals** 📊
+  - [x] NumPy library introduction and setup
+  - [x] Array creation and data type understanding
+  - [x] Multi-dimensional array operations (1D, 2D, 3D)
+  - [x] Array dimension properties and methods
+  - [x] File I/O operations for data persistence
+  - [ ] Advanced NumPy operations (upcoming)
+  - [ ] Pandas integration (upcoming)
 
 ## 🤝 Contributing
 
@@ -178,11 +195,12 @@ This is a personal learning repository, but feel free to:
 If you have any questions about this training material, feel free to reach out or open issues!
 
 ---
-*Last updated: October 7, 2025*
+*Last updated: October 8, 2025*
 
 **Repository Stats:**
-- Language: Python
-- Training Program: SAP at KPRIT College
-- Training Date: October 7, 2025
-- Focus: Python Functions & Parameter Types (Complete)
-- Next Topic: Data Preprocessing
+- Language: Python & NumPy
+- Training Program: SAP Code Unnati at KPRIT College
+- Training Dates: October 7-8, 2025
+- Focus: Data Preprocessing with NumPy (In Progress)
+- Completed: Python Functions & Parameter Types
+- Next Topic: Advanced NumPy & Pandas
